@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Alderaan",
+        "value": 3000,
+        "image": "../images/alderaan.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Coruscant",
+        "value": 1000,
+        "image": "../images/coruscant.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Endor",
+        "value": 1500,
+        "image": "../images/endor.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Hosnian Prime",
+        "value": 5000,
+        "image": "../images/hosnian.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Jedha",
+        "value": 2000,
+        "image": "../images/jedha.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Tatooine",
+        "value": 500,
+        "image": "../images/tatooine.jpg"
+    }
+    
+]
