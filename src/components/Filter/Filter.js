@@ -4,7 +4,7 @@ const Filter = ({ setValueMin, setValueMax, setSearchName }) => {
   
   return (
     <Container>
-      <Title>Filtros</Title>
+      <Title>Filtro</Title>
       <InputContainer>
         <input placeholder="Valor mínimo" type="number" onChange={(e) => setValueMin(e.target.value)} />
         <input placeholder="Valor máximo" type="number" onChange={(e) => setValueMax(e.target.value)} />

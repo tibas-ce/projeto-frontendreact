@@ -6,8 +6,7 @@ import {
   Container,
   Cabecalho,  
   Button,
-  PlanetSection,
-  Order
+  PlanetSection
 } from "./style";
 
 const CardPlanet = ({
@@ -38,11 +37,12 @@ const CardPlanet = ({
   return (
     <Container>
       <Cabecalho>
-        <Title>Nossos destinos</Title>
-        <Order value={order} onChange={(e) => setOrder(e.target.value)}>
+        <Title>Destinos</Title>
+        <br/>
+        <select value={order} onChange={(e) => setOrder(e.target.value)}>
           <option value="crescente">Crescente</option>
           <option value="decrescente">Decrescente</option>
-        </Order>
+        </select>
       </Cabecalho>
       <PlanetSection>
       {planetas

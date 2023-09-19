@@ -13,12 +13,8 @@ export const Cabecalho = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 50px;
-`;
-
-export const Order = styled.select`
-  align-self: flex-end;
+  justify-content: space-between;
+  gap: 10px;
 `;
 
 export const Title = styled.h1`

@@ -21,6 +21,12 @@ export const Aprensentacao = styled.section`
   align-items: center;
 `;
 
+export const Aviso = styled.h2`
+  text-align: center;
+  color: red;
+  font-size: 40px;
+`;
+
 export const FacaParte = styled.section`
   display: flex;
   flex-direction: column;
@@ -28,7 +34,7 @@ export const FacaParte = styled.section`
   gap: 30px;
 `;
 
-export const BotaoContainer = styled.div`
+export const Botao = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
